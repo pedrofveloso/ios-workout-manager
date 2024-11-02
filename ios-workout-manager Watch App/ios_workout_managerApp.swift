@@ -11,7 +11,7 @@ import SwiftUI
 struct ios_workout_manager_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
     }
 }
