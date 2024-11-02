@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECBE5F912CD5B816000ADCD0 /* ios-workout-manager Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ECBE5F902CD5B816000ADCD0 /* ios-workout-manager Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECBE5F7B2CD5B816000ADCD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBE5F622CD5B814000ADCD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBE5F692CD5B814000ADCD0;
+			remoteInfo = "ios-workout-manager";
+		};
+		ECBE5F852CD5B816000ADCD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBE5F622CD5B814000ADCD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBE5F692CD5B814000ADCD0;
+			remoteInfo = "ios-workout-manager";
+		};
+		ECBE5F922CD5B816000ADCD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBE5F622CD5B814000ADCD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBE5F8F2CD5B816000ADCD0;
+			remoteInfo = "ios-workout-manager Watch App";
+		};
+		ECBE5FA32CD5B817000ADCD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBE5F622CD5B814000ADCD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBE5F8F2CD5B816000ADCD0;
+			remoteInfo = "ios-workout-manager Watch App";
+		};
+		ECBE5FAD2CD5B817000ADCD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBE5F622CD5B814000ADCD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBE5F8F2CD5B816000ADCD0;
+			remoteInfo = "ios-workout-manager Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECBE5FB92CD5B817000ADCD0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ECBE5F912CD5B816000ADCD0 /* ios-workout-manager Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ECBE5F6A2CD5B814000ADCD0 /* ios-workout-manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-workout-manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBE5F7A2CD5B816000ADCD0 /* ios-workout-managerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-workout-managerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBE5F842CD5B816000ADCD0 /* ios-workout-managerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-workout-managerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBE5F902CD5B816000ADCD0 /* ios-workout-manager Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-workout-manager Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBE5FA22CD5B817000ADCD0 /* ios-workout-manager Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-workout-manager Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBE5FAC2CD5B817000ADCD0 /* ios-workout-manager Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-workout-manager Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ECBE5F6C2CD5B814000ADCD0 /* ios-workout-manager */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-workout-manager";
+			sourceTree = "<group>";
+		};
+		ECBE5F7D2CD5B816000ADCD0 /* ios-workout-managerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-workout-managerTests";
+			sourceTree = "<group>";
+		};
+		ECBE5F872CD5B816000ADCD0 /* ios-workout-managerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-workout-managerUITests";
+			sourceTree = "<group>";
+		};
+		ECBE5F942CD5B816000ADCD0 /* ios-workout-manager Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-workout-manager Watch App";
+			sourceTree = "<group>";
+		};
+		ECBE5FA52CD5B817000ADCD0 /* ios-workout-manager Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-workout-manager Watch AppTests";
+			sourceTree = "<group>";
+		};
+		ECBE5FAF2CD5B817000ADCD0 /* ios-workout-manager Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-workout-manager Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBE5F672CD5B814000ADCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5F772CD5B816000ADCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5F812CD5B816000ADCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5F8D2CD5B816000ADCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5F9F2CD5B817000ADCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5FA92CD5B817000ADCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECBE5F612CD5B814000ADCD0 = {
+			isa = PBXGroup;
+			children = (
+				ECBE5F6C2CD5B814000ADCD0 /* ios-workout-manager */,
+				ECBE5F7D2CD5B816000ADCD0 /* ios-workout-managerTests */,
+				ECBE5F872CD5B816000ADCD0 /* ios-workout-managerUITests */,
+				ECBE5F942CD5B816000ADCD0 /* ios-workout-manager Watch App */,
+				ECBE5FA52CD5B817000ADCD0 /* ios-workout-manager Watch AppTests */,
+				ECBE5FAF2CD5B817000ADCD0 /* ios-workout-manager Watch AppUITests */,
+				ECBE5F6B2CD5B814000ADCD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBE5F6B2CD5B814000ADCD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE5F6A2CD5B814000ADCD0 /* ios-workout-manager.app */,
+				ECBE5F7A2CD5B816000ADCD0 /* ios-workout-managerTests.xctest */,
+				ECBE5F842CD5B816000ADCD0 /* ios-workout-managerUITests.xctest */,
+				ECBE5F902CD5B816000ADCD0 /* ios-workout-manager Watch App.app */,
+				ECBE5FA22CD5B817000ADCD0 /* ios-workout-manager Watch AppTests.xctest */,
+				ECBE5FAC2CD5B817000ADCD0 /* ios-workout-manager Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBE5F692CD5B814000ADCD0 /* ios-workout-manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBE5FBA2CD5B817000ADCD0 /* Build configuration list for PBXNativeTarget "ios-workout-manager" */;
+			buildPhases = (
+				ECBE5F662CD5B814000ADCD0 /* Sources */,
+				ECBE5F672CD5B814000ADCD0 /* Frameworks */,
+				ECBE5F682CD5B814000ADCD0 /* Resources */,
+				ECBE5FB92CD5B817000ADCD0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBE5F932CD5B816000ADCD0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECBE5F6C2CD5B814000ADCD0 /* ios-workout-manager */,
+			);
+			name = "ios-workout-manager";
+			packageProductDependencies = (
+			);
+			productName = "ios-workout-manager";
+			productReference = ECBE5F6A2CD5B814000ADCD0 /* ios-workout-manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBE5F792CD5B816000ADCD0 /* ios-workout-managerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBE5FBD2CD5B817000ADCD0 /* Build configuration list for PBXNativeTarget "ios-workout-managerTests" */;
+			buildPhases = (
+				ECBE5F762CD5B816000ADCD0 /* Sources */,
+				ECBE5F772CD5B816000ADCD0 /* Frameworks */,
+				ECBE5F782CD5B816000ADCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBE5F7C2CD5B816000ADCD0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECBE5F7D2CD5B816000ADCD0 /* ios-workout-managerTests */,
+			);
+			name = "ios-workout-managerTests";
+			packageProductDependencies = (
+			);
+			productName = "ios-workout-managerTests";
+			productReference = ECBE5F7A2CD5B816000ADCD0 /* ios-workout-managerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECBE5F832CD5B816000ADCD0 /* ios-workout-managerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBE5FC02CD5B817000ADCD0 /* Build configuration list for PBXNativeTarget "ios-workout-managerUITests" */;
+			buildPhases = (
+				ECBE5F802CD5B816000ADCD0 /* Sources */,
+				ECBE5F812CD5B816000ADCD0 /* Frameworks */,
+				ECBE5F822CD5B816000ADCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBE5F862CD5B816000ADCD0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECBE5F872CD5B816000ADCD0 /* ios-workout-managerUITests */,
+			);
+			name = "ios-workout-managerUITests";
+			packageProductDependencies = (
+			);
+			productName = "ios-workout-managerUITests";
+			productReference = ECBE5F842CD5B816000ADCD0 /* ios-workout-managerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ECBE5F8F2CD5B816000ADCD0 /* ios-workout-manager Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBE5FB62CD5B817000ADCD0 /* Build configuration list for PBXNativeTarget "ios-workout-manager Watch App" */;
+			buildPhases = (
+				ECBE5F8C2CD5B816000ADCD0 /* Sources */,
+				ECBE5F8D2CD5B816000ADCD0 /* Frameworks */,
+				ECBE5F8E2CD5B816000ADCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ECBE5F942CD5B816000ADCD0 /* ios-workout-manager Watch App */,
+			);
+			name = "ios-workout-manager Watch App";
+			packageProductDependencies = (
+			);
+			productName = "ios-workout-manager Watch App";
+			productReference = ECBE5F902CD5B816000ADCD0 /* ios-workout-manager Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBE5FA12CD5B817000ADCD0 /* ios-workout-manager Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBE5FC32CD5B817000ADCD0 /* Build configuration list for PBXNativeTarget "ios-workout-manager Watch AppTests" */;
+			buildPhases = (
+				ECBE5F9E2CD5B817000ADCD0 /* Sources */,
+				ECBE5F9F2CD5B817000ADCD0 /* Frameworks */,
+				ECBE5FA02CD5B817000ADCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBE5FA42CD5B817000ADCD0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECBE5FA52CD5B817000ADCD0 /* ios-workout-manager Watch AppTests */,
+			);
+			name = "ios-workout-manager Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "ios-workout-manager Watch AppTests";
+			productReference = ECBE5FA22CD5B817000ADCD0 /* ios-workout-manager Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECBE5FAB2CD5B817000ADCD0 /* ios-workout-manager Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBE5FC62CD5B817000ADCD0 /* Build configuration list for PBXNativeTarget "ios-workout-manager Watch AppUITests" */;
+			buildPhases = (
+				ECBE5FA82CD5B817000ADCD0 /* Sources */,
+				ECBE5FA92CD5B817000ADCD0 /* Frameworks */,
+				ECBE5FAA2CD5B817000ADCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBE5FAE2CD5B817000ADCD0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECBE5FAF2CD5B817000ADCD0 /* ios-workout-manager Watch AppUITests */,
+			);
+			name = "ios-workout-manager Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "ios-workout-manager Watch AppUITests";
+			productReference = ECBE5FAC2CD5B817000ADCD0 /* ios-workout-manager Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBE5F622CD5B814000ADCD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					ECBE5F692CD5B814000ADCD0 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					ECBE5F792CD5B816000ADCD0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = ECBE5F692CD5B814000ADCD0;
+					};
+					ECBE5F832CD5B816000ADCD0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = ECBE5F692CD5B814000ADCD0;
+					};
+					ECBE5F8F2CD5B816000ADCD0 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					ECBE5FA12CD5B817000ADCD0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = ECBE5F8F2CD5B816000ADCD0;
+					};
+					ECBE5FAB2CD5B817000ADCD0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = ECBE5F8F2CD5B816000ADCD0;
+					};
+				};
+			};
+			buildConfigurationList = ECBE5F652CD5B814000ADCD0 /* Build configuration list for PBXProject "ios-workout-manager" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBE5F612CD5B814000ADCD0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ECBE5F6B2CD5B814000ADCD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBE5F692CD5B814000ADCD0 /* ios-workout-manager */,
+				ECBE5F792CD5B816000ADCD0 /* ios-workout-managerTests */,
+				ECBE5F832CD5B816000ADCD0 /* ios-workout-managerUITests */,
+				ECBE5F8F2CD5B816000ADCD0 /* ios-workout-manager Watch App */,
+				ECBE5FA12CD5B817000ADCD0 /* ios-workout-manager Watch AppTests */,
+				ECBE5FAB2CD5B817000ADCD0 /* ios-workout-manager Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBE5F682CD5B814000ADCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5F782CD5B816000ADCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5F822CD5B816000ADCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5F8E2CD5B816000ADCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5FA02CD5B817000ADCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5FAA2CD5B817000ADCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBE5F662CD5B814000ADCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5F762CD5B816000ADCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5F802CD5B816000ADCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5F8C2CD5B816000ADCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5F9E2CD5B817000ADCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE5FA82CD5B817000ADCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECBE5F7C2CD5B816000ADCD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBE5F692CD5B814000ADCD0 /* ios-workout-manager */;
+			targetProxy = ECBE5F7B2CD5B816000ADCD0 /* PBXContainerItemProxy */;
+		};
+		ECBE5F862CD5B816000ADCD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBE5F692CD5B814000ADCD0 /* ios-workout-manager */;
+			targetProxy = ECBE5F852CD5B816000ADCD0 /* PBXContainerItemProxy */;
+		};
+		ECBE5F932CD5B816000ADCD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBE5F8F2CD5B816000ADCD0 /* ios-workout-manager Watch App */;
+			targetProxy = ECBE5F922CD5B816000ADCD0 /* PBXContainerItemProxy */;
+		};
+		ECBE5FA42CD5B817000ADCD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBE5F8F2CD5B816000ADCD0 /* ios-workout-manager Watch App */;
+			targetProxy = ECBE5FA32CD5B817000ADCD0 /* PBXContainerItemProxy */;
+		};
+		ECBE5FAE2CD5B817000ADCD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBE5F8F2CD5B816000ADCD0 /* ios-workout-manager Watch App */;
+			targetProxy = ECBE5FAD2CD5B817000ADCD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECBE5FB42CD5B817000ADCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECBE5FB52CD5B817000ADCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ECBE5FB72CD5B817000ADCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-workout-manager Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XNN7BLCMG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ios-workout-manager";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.pedrofveloso.ios-workout-manager";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrofveloso.ios-workout-manager.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		ECBE5FB82CD5B817000ADCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-workout-manager Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XNN7BLCMG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ios-workout-manager";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.pedrofveloso.ios-workout-manager";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrofveloso.ios-workout-manager.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		ECBE5FBB2CD5B817000ADCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-workout-manager/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XNN7BLCMG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ios-workout-manager";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrofveloso.ios-workout-manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECBE5FBC2CD5B817000ADCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-workout-manager/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XNN7BLCMG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ios-workout-manager";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrofveloso.ios-workout-manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBE5FBE2CD5B817000ADCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XNN7BLCMG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrofveloso.ios-workout-managerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-workout-manager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-workout-manager";
+			};
+			name = Debug;
+		};
+		ECBE5FBF2CD5B817000ADCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XNN7BLCMG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrofveloso.ios-workout-managerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-workout-manager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-workout-manager";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBE5FC12CD5B817000ADCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XNN7BLCMG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrofveloso.ios-workout-managerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-workout-manager";
+			};
+			name = Debug;
+		};
+		ECBE5FC22CD5B817000ADCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XNN7BLCMG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrofveloso.ios-workout-managerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-workout-manager";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBE5FC42CD5B817000ADCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XNN7BLCMG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrofveloso.ios-workout-manager-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-workout-manager Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-workout-manager Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		ECBE5FC52CD5B817000ADCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XNN7BLCMG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrofveloso.ios-workout-manager-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-workout-manager Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-workout-manager Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		ECBE5FC72CD5B817000ADCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XNN7BLCMG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrofveloso.ios-workout-manager-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ios-workout-manager Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		ECBE5FC82CD5B817000ADCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5XNN7BLCMG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pedrofveloso.ios-workout-manager-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ios-workout-manager Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBE5F652CD5B814000ADCD0 /* Build configuration list for PBXProject "ios-workout-manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE5FB42CD5B817000ADCD0 /* Debug */,
+				ECBE5FB52CD5B817000ADCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBE5FB62CD5B817000ADCD0 /* Build configuration list for PBXNativeTarget "ios-workout-manager Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE5FB72CD5B817000ADCD0 /* Debug */,
+				ECBE5FB82CD5B817000ADCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBE5FBA2CD5B817000ADCD0 /* Build configuration list for PBXNativeTarget "ios-workout-manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE5FBB2CD5B817000ADCD0 /* Debug */,
+				ECBE5FBC2CD5B817000ADCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBE5FBD2CD5B817000ADCD0 /* Build configuration list for PBXNativeTarget "ios-workout-managerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE5FBE2CD5B817000ADCD0 /* Debug */,
+				ECBE5FBF2CD5B817000ADCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBE5FC02CD5B817000ADCD0 /* Build configuration list for PBXNativeTarget "ios-workout-managerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE5FC12CD5B817000ADCD0 /* Debug */,
+				ECBE5FC22CD5B817000ADCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBE5FC32CD5B817000ADCD0 /* Build configuration list for PBXNativeTarget "ios-workout-manager Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE5FC42CD5B817000ADCD0 /* Debug */,
+				ECBE5FC52CD5B817000ADCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBE5FC62CD5B817000ADCD0 /* Build configuration list for PBXNativeTarget "ios-workout-manager Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE5FC72CD5B817000ADCD0 /* Debug */,
+				ECBE5FC82CD5B817000ADCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBE5F622CD5B814000ADCD0 /* Project object */;
+}
