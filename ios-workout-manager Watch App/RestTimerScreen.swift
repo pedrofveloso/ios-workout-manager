@@ -1,5 +1,5 @@
 //
-//  RestTimerView.swift
+//  RestTimerScreen.swift
 //  ios-workout-manager Watch App
 //
 //  Created by Pedro Veloso on 02/11/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RestTimerView: View {
+struct RestTimerScreen: View {
 
     var body: some View {
         VStack(spacing: 24) {
@@ -29,5 +29,5 @@ struct RestTimerView: View {
 }
 
 #Preview {
-    RestTimerView()
+    RestTimerScreen()
 }

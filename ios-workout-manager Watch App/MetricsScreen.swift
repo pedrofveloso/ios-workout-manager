@@ -1,5 +1,5 @@
 //
-//  MetricsView.swift
+//  MetricsScreen.swift
 //  ios-workout-manager Watch App
 //
 //  Created by Pedro Veloso on 01/11/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MetricsView: View {
+struct MetricsScreen: View {
 
     @State private var heartScale = 1.0
     @State private var showRestTimerView = false
@@ -74,13 +74,13 @@ struct MetricsView: View {
             .frame(maxWidth: .infinity)
         }
         .sheet(isPresented: $showRestTimerView) {
-            RestTimerView()
+            RestTimerScreen()
         }
     }
 }
 
 #Preview {
-    MetricsView()
+    MetricsScreen()
 }
 
 struct CircularProgressView: View {

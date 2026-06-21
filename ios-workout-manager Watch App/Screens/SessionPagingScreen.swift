@@ -1,5 +1,5 @@
 //
-//  SessionPagingView.swift
+//  SessionPagingScreen.swift
 //  ios-workout-manager
 //
 //  Created by Pedro Veloso on 16/08/25.
@@ -8,7 +8,7 @@
 import SwiftUI
 import WatchKit
 
-struct SessionPagingView: View {
+struct SessionPagingScreen: View {
     
     enum TabItem {
         case controls, metrics, nowPlaying
@@ -19,11 +19,11 @@ struct SessionPagingView: View {
     var body: some View {
         TabView(selection: $selection) {
             Tab(value: TabItem.controls) {
-                ControlsView()
+                SessionControlsScreen()
             }
             
             Tab(value: TabItem.metrics) {
-                MetricsView()
+                MetricsScreen()
             }
             
             Tab(value: .nowPlaying) {
@@ -34,5 +34,5 @@ struct SessionPagingView: View {
 }
 
 #Preview {
-    SessionPagingView()
+    SessionPagingScreen()
 }

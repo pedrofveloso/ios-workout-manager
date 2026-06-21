@@ -1,5 +1,5 @@
 //
-//  SummaryView.swift
+//  SummaryScreen.swift
 //  ios-workout-manager
 //
 //  Created by Pedro Veloso on 16/08/25.
@@ -8,7 +8,7 @@
 import HealthKit
 import SwiftUI
 
-struct SummaryView: View {
+struct SummaryScreen: View {
     @State private var durationFormatter = DateComponentsFormatter.hourMinuteSecondFormatter
     
     var body: some View {
@@ -83,5 +83,5 @@ private struct SummaryMetricView: View {
 }
 
 #Preview {
-    SummaryView()
+    SummaryScreen()
 }

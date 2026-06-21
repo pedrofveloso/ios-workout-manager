@@ -1,5 +1,5 @@
 //
-//  ControlsView.swift
+//  SessionControlsScreen.swift
 //  ios-workout-manager
 //
 //  Created by Pedro Veloso on 16/08/25.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ControlsView: View {
+struct SessionControlsScreen: View {
     var body: some View {
         HStack {
             ControlButton(type: .end) {
@@ -63,5 +63,5 @@ private struct ControlButton: View {
 }
 
 #Preview {
-    ControlsView()
+    SessionControlsScreen()
 }
