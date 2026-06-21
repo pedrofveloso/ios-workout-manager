@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct ios_workout_manager_Watch_AppApp: App {
+    @StateObject private var workoutManager = WorkoutManager()
+
     var body: some Scene {
         WindowGroup {
-            MetricsView()
+            NavigationView {
+                SessionPagingScreen()
+            }
+            .environmentObject(workoutManager)
         }
+        
+//        WKNotificationScene(controller: NotificationController.self, category: "ios_workout_managerApp")
     }
 }
